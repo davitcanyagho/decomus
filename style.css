@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link-navbar a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn-search {
+  text-align: center;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.btn-search input {
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px;
+}
+
+.btn-search button {
+  padding: 11px;
+  padding-left: 20px;
+  background-color: #1aacac;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.fa-search {
+  margin-right: 10px;
+  color: white;
+}
+
+.hero {
+  max-width: 100%;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+}
+.judul h2 {
+  margin-left: 112px;
+}
+.judul {
+  margin-top: 50px;
+  height: 25px;
+  width: 100%;
+}
